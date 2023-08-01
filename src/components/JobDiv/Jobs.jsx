@@ -115,16 +115,18 @@ const jobsListData = [
 	},
 ];
 
+
 const Jobs = () => {
 	return (
-		<div>
-			<div className="jobsContainer flex gap-10 justify-center flex-wrap items-center py-10">
-				{jobsListData.map((job, _idx) => (
-					<SingleJobCard key={_idx} jobData={job} />
-				))}
-			</div>
+	  <div>
+		<div className="jobsContainer flex gap-10 justify-center flex-wrap items-center py-10 bg-gray-800">
+		  {jobsListData.map((job, _idx) => (
+			<SingleJobCard key={_idx} jobData={job} />
+		  ))}
 		</div>
+	  </div>
 	);
-};
+  };
+  
 
 export default Jobs;

@@ -9,7 +9,7 @@ const Footer = () => {
 			<div>
 				<div className="logoDiv">
 					<h1 className="logo text-[25px] text-white pb-[1.5rem]">
-						<strong>Job</strong>Finder
+						<strong>Job</strong>Portal
 					</h1>
 				</div>
 
@@ -83,7 +83,7 @@ const Footer = () => {
 				</span>
 				<div>
 					<small className="text-[14px] text-white">
-						shrianshcoding@gmail.com
+						manavj764@gmail.com
 					</small>
 					<div className="icons flex gap-4 py-[1rem]">
 						<AiFillInstagram className="bg-white p-[8px] h-[35px] w-[35px] rounded-full icon text-blueColor" />
